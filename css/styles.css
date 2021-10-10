@@ -26,6 +26,7 @@ body {
 /* -----------header----------- */
 
 .logo-web {
+  font-family: Raleway, sans-serif;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -34,11 +35,16 @@ body {
 }
 
 .logo-studio {
+  font-family: Raleway, sans-serif;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #212121;
+}
+
+.menu-list .menu-link.current {
+  color: var(--accent-color);
 }
 
 .menu-link {
@@ -111,13 +117,12 @@ body {
 .benefits-pre-title {
   font-weight: bold;
   font-size: 14px;
-  line-height: 1.14x;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   color: var(--primary-title-color);
 }
 
 .benefits-text {
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -153,7 +158,6 @@ body {
 }
 
 .team-text {
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
@@ -167,6 +171,7 @@ body {
 }
 
 .footer-web {
+  font-family: Raleway, sans-serif;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -175,6 +180,7 @@ body {
 }
 
 .footer-studio {
+  font-family: Raleway, sans-serif;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -183,7 +189,6 @@ body {
 }
 
 .footer-add {
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -191,7 +196,6 @@ body {
 }
 
 .footer-mail {
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -199,9 +203,71 @@ body {
 }
 
 .footer-tel {
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-contacts-color);
+}
+
+.footer-add:hover,
+.footer-add:focus {
+  color: var(--accent-color);
+}
+
+.footer-mail:hover,
+.footer-mail:focus {
+  color: var(--accent-color);
+}
+
+.footer-tel:hover,
+.footer-tel:focus {
+  color: var(--accent-color);
+}
+
+/* ----------portfolio------------- */
+
+/* ----------section filter---------- */
+.btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.filter-btn {
+  background: #f5f4fa;
+}
+
+.btn:hover,
+.btn:focus {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  background: #2196f3;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.blok-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-title-color);
+}
+
+.blok-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
