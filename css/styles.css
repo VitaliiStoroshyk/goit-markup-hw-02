@@ -8,11 +8,11 @@
 }
 
 body {
+  font-size: 14px;
   font-family: "Roboto", sans-serif;
-}
-
-body {
-  color: #212121;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  background-color: #e5e5e5;
 }
 
 .list {
@@ -30,8 +30,7 @@ body {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .logo-studio {
@@ -39,8 +38,7 @@ body {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--primary-title-color);
 }
 
 .menu-list .menu-link.current {
@@ -49,7 +47,6 @@ body {
 
 .menu-link {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--header-color);
@@ -72,7 +69,6 @@ body {
 
 .header-mail {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
@@ -80,7 +76,6 @@ body {
 
 .header-tel {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
@@ -105,27 +100,23 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--hero-color);
 }
 
 .hero-btn {
-  background-color: #2196f3;
+  background-color: var(--accent-color);
 }
 
 /* -------section benefits------- */
 
 .benefits-pre-title {
   font-weight: bold;
-  font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   color: var(--primary-title-color);
 }
 
 .benefits-text {
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
 
@@ -135,7 +126,6 @@ body {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
-  letter-spacing: 0.03em;
   color: var(--primary-title-color);
 }
 
@@ -145,7 +135,6 @@ body {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
-  letter-spacing: 0.03em;
   color: var(--primary-title-color);
 }
 
@@ -153,21 +142,19 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  letter-spacing: 0.03em;
   color: var(--primary-title-color);
 }
 
 .team-text {
   font-size: 16px;
   line-height: 1.18;
-  letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
 
 /* ----------footer----------- */
 
 .footer {
-  background-color: var(--primary-text-color);
+  background-color: #2f303a;
 }
 
 .footer-web {
@@ -175,8 +162,7 @@ body {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .footer-studio {
@@ -184,18 +170,23 @@ body {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--hero-color);
 }
 
 .footer-add {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--hero-color);
 }
 
 .footer-mail {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -203,6 +194,9 @@ body {
 }
 
 .footer-tel {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -232,7 +226,7 @@ body {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--primary-title-color);
 }
 
 .filter-btn {
@@ -245,12 +239,12 @@ body {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--hero-color);
 }
 
 .filter-btn:hover,
 .filter-btn:focus {
-  background: #2196f3;
+  background: var(--accent-color);
 }
 
 .cursor {
@@ -268,6 +262,5 @@ body {
 .blok-text {
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
